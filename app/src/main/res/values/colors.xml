@@ -2,4 +2,110 @@
 <resources>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+
+
+    <!-- PRIMARY -->
+    <color name="primary">#7C4DFF</color>
+    <!--Botones principales (MaterialButton)
+        FloatingActionButton
+        Switch activo
+        Checkbox activo
+        Progress indicator
+        Elementos destacados-->
+    <color name="on_primary">#FFFFFF</color>
+    <!--Color del texto o íconos sobre el Primary-->
+    <color name="primary_container">#2A1B5E</color>
+    <!--Fondos secundarios relacionados al primary
+            Se usa en:
+                Cards destacadas
+                Chips seleccionados
+                Estados elevados suaves-->
+    <color name="on_primary_container">#EADDFF</color>
+    <!--Texto sobre ese container.-->
+    <color name="primary_fixed">#EADDFF</color>
+    <color name="primary_fixed_dim">#C4B5FD</color>
+    <color name="on_primary_fixed">#1A0036</color>
+    <color name="on_primary_fixed_variant">#4B2E83</color>
+    <color name="inverse_primary">#B69CFF</color>
+
+    <!-- SECONDARY -->
+    <!--Color de soporte o acento alternativo.
+            Se usa en:
+                Chips
+                Botones secundarios
+                Indicadores
+                Elementos complementarios-->
+    <color name="secondary">#00E5FF</color>
+    <color name="on_secondary">#001F24</color>
+    <color name="secondary_container">#00363D</color>
+    <color name="on_secondary_container">#A6F7FF</color>
+    <color name="secondary_fixed">#A6F7FF</color>
+    <color name="secondary_fixed_dim">#4DD0E1</color>
+    <color name="on_secondary_fixed">#001F24</color>
+    <color name="on_secondary_fixed_variant">#004F57</color>
+
+    <!-- TERTIARY -->
+    <!--Color decorativo o diferenciador.
+        Se usa cuando quieres:
+            Secciones especiales
+            Estados únicos
+            Elementos informativos
+        No todos los componentes lo usan por defecto.-->
+    <color name="tertiary">#FF6F91</color>
+    <color name="on_tertiary">#3A0012</color>
+    <color name="tertiary_container">#5A0F2D</color>
+    <color name="on_tertiary_container">#FFD9E2</color>
+    <color name="tertiary_fixed">#FFD9E2</color>
+    <color name="tertiary_fixed_dim">#FF9BB3</color>
+    <color name="on_tertiary_fixed">#3A0012</color>
+    <color name="on_tertiary_fixed_variant">#7A1E3F</color>
+
+    <!-- ERROR -->
+    <!--Se usa en:
+        TextInputLayout con error
+        Snackbar error
+        AlertDialogs críticos
+        Mensajes de validación-->
+    <color name="error">#FF5252</color>
+    <color name="on_error">#FFFFFF</color>
+    <color name="error_container">#5C0000</color>
+    <color name="on_error_container">#FFDAD6</color>
+
+    <!-- SURFACE / NEUTRAL -->
+    <!--Fondo base de:
+        Cards
+        BottomSheet
+        Dialogs
+        NavigationDrawer
+        AppBar-->
+    <color name="surface_dim">#0F0F14</color>
+    <color name="surface">#121212</color>
+    <color name="surface_bright">#1A1A1F</color>
+    <color name="surface_container_lowest">#0B0B0F</color>
+    <color name="surface_container_low">#141418</color>
+    <color name="surface_container">#1C1C22</color>
+    <color name="surface_container_high">#24242B</color>
+    <color name="surface_container_highest">#2E2E36</color>
+
+    <!-- INVERSE -->
+    <color name="inverse_surface">#E6E1E5</color>
+    <color name="inverse_on_surface">#1C1B1F</color>
+
+    <!-- TEXT / OUTLINE -->
+    <!--Texto normal en pantalla-->
+    <color name="on_surface">#E6E1E5</color>
+    <!--Fondos secundarios
+        Ejemplo:
+            TextInput
+            Elevated cards
+            Secciones agrupadas-->
+    <color name="on_surface_variant">#C4C4CC</color>
+    <!--Se usa en:
+            Bordes
+            Dividers
+            Contornos de TextField-->
+    <color name="outline">#44474F</color>
+    <color name="outline_variant">#2C2C34</color>
+    <color name="scrim">#000000</color>
+    <color name="shadow">#000000</color>
 </resources>
