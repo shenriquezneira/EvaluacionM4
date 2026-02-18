@@ -1,6 +1,8 @@
 <resources>
     <string name="app_name">EvaluacionM4</string>
-    <string name="hola">Soy Sergio Henriquez\nDesarrollador Android</string>
+    <string name="saludo">Soy Sergio Henriquez\nDesarrollador Android</string>
     <string name="experiencia">4 meses</string>
     <string name="motivacion">Extremadamente Alta</string>
+    <string name="submit">Compartir</string>
+    <string name="about">ABOUT\nSERGIO HENRIQUEZ</string>
 </resources>

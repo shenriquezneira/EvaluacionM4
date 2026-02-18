@@ -1,6 +1,8 @@
 package com.example.evaluacionm4;
 
+import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
@@ -24,5 +26,12 @@ public class MainActivity extends AppCompatActivity {
         setContentView(activityMainBinding.getRoot());
 
         //activityMainBinding.textViewSaludo.setText("Hola mundo");
+        activityMainBinding.btnShare.setOnClickListener(new View.OnClickListener() {
+                                                            @Override
+                                                            public void onClick(View v) {
+                                                                Intent intent = new Intent(MainActivity.this, AboutActivity.class);
+                                                                startActivity(intent);
+                                                            }
+                                                        }        );
     }
 }
